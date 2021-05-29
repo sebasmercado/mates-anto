@@ -1,0 +1,57 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Mates de cerámica y alpaca. Diseño y calidad"
+  content : "La combinación perfecta de la cerámica y la alpaca en forma de mate. Un artículo exclusivo y de altísima calidad que podemos utilizar de manera cotidiana o para presentar como un regalo único."
+  image : "images/pampa.jpg"
+  button:
+   enable : true
+   label : "Vea nuestro catálogo"
+   link : "productos"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Características de los mates"
+  image : "images/flor.jpg"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Bombilla"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Bombilla de alpaca con detalle, tiene un sistema muy simple y eficaz para su limpieza interior"
+    
+    # feature item loop
+  - title : "Virola"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Virola de alpaca con pulido espejo."
+    
+    # feature item loop
+  - title : "Engarce"
+    icon : "tf-ion-ios-cart-outline"
+    content : "El engarce está hecho en alpaca con detalle cincelado y calado a mano"
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Soldaduras"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Todas las soldaduras completamente realizadas en plata"
+
+    # feature item loop
+  - title : "Curado"
+    icon : "tf-ion-ios-bell-outline"
+    content : "El mate no precisa ser curado, está listo para su uso"
+
+    # feature item loop
+  - title : "Artesanía de Calidad"
+    icon : "tf-ion-ios-cart-outline"
+    content : "El carácter de los materiales junto con la manufactura especializada de los fabricantes resultan en
+un producto bello y duradero"
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Vea todos nuestros Mates"
