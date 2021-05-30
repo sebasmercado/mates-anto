@@ -13,6 +13,16 @@ discount_price: "25.00"
 colors : ["Varios", "Alpaca"]
 #sizes : ["small","medium","large"]
 
+imagenListado: "catalogo/star-wars/silueta-de-mando.jpg"
+
+imagenesPrincipales: 
+    - nombre: "catalogo/star-wars/silueta-de-mando.jpg"
+    - nombre: "catalogo/star-wars/dart-1.jpg"
+    - nombre: "catalogo/star-wars/casco-mandalorian.jpg"
+    - nombre: "catalogo/star-wars/grogu.jpg"
+    - nombre: "catalogo/star-wars/stormtrooper.jpg"
+    
+
 draft: false
 ---
 

@@ -13,6 +13,18 @@ discount_price: "25.00"
 colors : ["Varios", "Alpaca"]
 #sizes : ["small","medium","large"]
 
+imagenListado: "catalogo/harry-potter/always.jpg"
+
+imagenesPrincipales: 
+    - nombre: "catalogo/harry-potter/harry.jpg"
+    - nombre: "catalogo/harry-potter/always.jpg"
+    - nombre: "catalogo/harry-potter/hogwarts.jpg"
+    - nombre: "catalogo/harry-potter/plataforma-9-3.jpg"
+
+imagenesSecundarias: 
+    - nombre: "catalogo/harry-potter/reliquias.jpg"
+    - nombre: "catalogo/harry-potter/sombrero.jpg"
+
 draft: false
 ---
 

@@ -14,14 +14,11 @@
               <i class="tf-ion-plus-round"></i>
             </a>            
           </div>
-          {{ with .Resources.ByType "image" }}          
-          {{range first 1 .}}
-          <img class="img-fluid" src="{{.RelPermalink|absURL}}" alt="{{.Title}}">          
-          {{end}}
-          {{ end }}
+          {{ $title := .Title }}          
+          <img class="img-fluid" src="{{.Params.imagenListado | absURL}}" alt="{{.Title}}">                    
         </div>
         <div class="product-info">
-        <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>        
+          <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>        
         </div>
       </div>
       {{ end }}

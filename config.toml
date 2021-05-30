@@ -81,6 +81,8 @@ snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1
 enable = true
 preloader = "" # use .png , .svg or .gif format
 
+defaultContentLanguage = "es"
+
 # Subscription
 [params.subscription]
 # mailchimp subsciption

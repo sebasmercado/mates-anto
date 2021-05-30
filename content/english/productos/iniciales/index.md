@@ -13,6 +13,14 @@ discount_price: "25.00"
 colors : ["Varios", "Alpaca"]
 #sizes : ["small","medium","large"]
 
+imagenListado: "catalogo/iniciales/bombillas.jpg"
+
+imagenesPrincipales: 
+    - nombre: "catalogo/iniciales/bombillas.jpg"
+    - nombre: "catalogo/iniciales/f.jpg"
+    - nombre: "catalogo/iniciales/p.jpg"
+    - nombre: "catalogo/iniciales/ss.jpg"
+
 draft: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Conjuntos Materos"
+title: "Nacional"
 date: 2019-10-17T11:22:16+06:00
 
 # meta description
@@ -13,16 +13,21 @@ discount_price: "25.00"
 colors : ["Varios", "Alpaca"]
 #sizes : ["small","medium","large"]
 
-imagenListado: "catalogo/conjuntos/juego.jpg"
+imagenListado: "catalogo/nacionales/flor.jpg"
 
 imagenesPrincipales: 
-    - nombre: "catalogo/conjuntos/juego.jpg"
-    - nombre: "catalogo/conjuntos/juego 4.jpg"
-    - nombre: "catalogo/conjuntos/juego 5.jpg"
-    - nombre: "catalogo/conjuntos/juego 7.jpg"
+    - nombre: "catalogo/nacionales/flor.jpg"
+    - nombre: "catalogo/nacionales/escudo.jpg"
+    - nombre: "catalogo/nacionales/lis.jpg"
+    - nombre: "catalogo/nacionales/mafalda.jpg"
 
 imagenesSecundarias: 
-
+    - nombre: "catalogo/nacionales/el-che-red.jpg"
+    - nombre: "catalogo/nacionales/malvinas.jpg"
+    - nombre: "catalogo/nacionales/pampa.jpg"
+    - nombre: "catalogo/nacionales/papa.jpg"
+    - nombre: "catalogo/nacionales/parra.jpg"
+    - nombre: "catalogo/nacionales/trebol.jpg"
 
 draft: false
 ---

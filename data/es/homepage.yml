@@ -53,5 +53,5 @@ un producto bello y duradero"
 
 #################################### Products ########################
 products:
-  enable : true
+  enable : false
   title : "Vea todos nuestros Mates"
