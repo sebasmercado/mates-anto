@@ -13,6 +13,17 @@ discount_price: "25.00"
 colors : ["Varios", "Alpaca"]
 #sizes : ["small","medium","large"]
 
+imagenListado: "catalogo/conjuntos/juego.jpg"
+
+imagenesPrincipales: 
+    - nombre: "catalogo/conjuntos/juego.jpg"
+    - nombre: "catalogo/conjuntos/juego 4.jpg"
+    - nombre: "catalogo/conjuntos/juego 5.jpg"
+    - nombre: "catalogo/conjuntos/juego 7.jpg"
+
+imagenesSecundarias: 
+
+
 draft: false
 ---
 

@@ -11,7 +11,27 @@ discount_price: "25.00"
 
 # product variation
 colors : ["Varios", "Alpaca"]
-#sizes : ["small","medium","large"]
+sizes : []
+
+imagenListado: "catalogo/bandas/abel-pintos-gratitud.jpg"
+
+imagenesPrincipales: 
+    - nombre: "catalogo/bandas/abel-pintos-gratitud.jpg"
+    - nombre: "catalogo/bandas/acdc.jpg"
+    - nombre: "catalogo/bandas/nirvana.jpg"
+    - nombre: "catalogo/bandas/redonditos.jpg"
+
+
+imagenesSecundarias: 
+    - nombre: "catalogo/bandas/callejeros.jpg"
+    - nombre: "catalogo/bandas/CERATTI.jpg"
+    - nombre: "catalogo/bandas/ciro.jpg"
+    - nombre: "catalogo/bandas/guns.jpg"
+    - nombre: "catalogo/bandas/indio.jpg"
+    - nombre: "catalogo/bandas/la-renga.jpg"
+    - nombre: "catalogo/bandas/metallica.jpg"
+    - nombre: "catalogo/bandas/pearl jam.jpg"
+    - nombre: "catalogo/bandas/rollings.jpg"
 
 draft: false
 ---

@@ -5,13 +5,11 @@
     <div class="row">
       <div class="col-md-5 mb-4 mb-md-0">
         <!-- product image slider -->
-        <div class="product-image-slider">
-          {{ with .Resources.ByType "image" }}
-          {{ range . }}
-          <div data-image="{{ .RelPermalink | absURL }}">
-            <img class="img-fluid m-auto" src="{{ .RelPermalink | absURL }}" alt="product-image">
-          </div>
-          {{ end }}
+        <div class="product-image-slider">          
+          {{ range $index, $image := .Params.imagenesPrincipales }}
+          <div data-image="{{ $image.nombre | absURL }}">
+            <img class="img-fluid m-auto" src="{{ $image.nombre | absURL }}" alt="product-image">
+          </div>          
           {{ end }}
         </div>
       </div>
@@ -22,23 +20,24 @@
         <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
         {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
         </p>
-        <button class="snipcart-add-item btn btn-main mb-5" 
-          data-item-id="{{.Title | urlize}}__{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
-          data-item-name="{{.Title}}"
-          data-item-image="{{with .Params.Images}} {{range first 1 . }}{{. | absURL}}{{end}}{{end}}"
-          data-item-price="{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}" data-item-url="{{.Permalink}}" 
-          {{ if .Params.colors }}
-          data-item-custom1-name="Choose Color"
-          data-item-custom1-options="{{range $index, $element:= .Params.colors}}{{ if eq $index 0 }}{{. | title}}{{ else }}|{{. | title }}{{end}}{{end}}"
-          {{ end }}
-          {{ if .Params.sizes }}
-          data-item-custom2-name="Choose Size"
-          data-item-custom2-options="{{range $index, $element:= .Params.sizes}}{{if eq $index 0}}{{. | title}}{{else}}|{{. | title}}{{end}}{{end}}"
-          {{end}}>{{i18n "contact_for_info"}}
-        </button>
+        <button class="snipcart-add-item btn btn-main mb-5">{{i18n "contact_for_info"}}</button>
         <div class="content">{{.Content}}</div>
       </div>
+    </div>    
+    {{ with .Params.imagenesSecundarias }}
+    <div class="row mt-5">
+      <div class="col-md-12 mb-4 mb-md-0">
+          <h2>Y tenemos mas..</h2>
+          <div class="row">
+            {{ range $index, $image := . }}
+            <div class="col-md-12 col-lg-4" data-image="{{ $image.nombre | absURL }}">
+              <img class="img-fluid m-auto p-3" src="{{ $image.nombre | absURL }}" alt="product-image">
+            </div>          
+            {{ end }}
+          </div>
+      </div>
     </div>
+    {{ end }}
   </div>
 </section>
 
