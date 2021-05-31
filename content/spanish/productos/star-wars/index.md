@@ -6,8 +6,8 @@ date: 2019-10-17T11:22:16+06:00
 description : "this is meta description"
 
 # product Price
-price: "30.00"
-discount_price: "25.00"
+price: "3.400,00"
+discount_price: ""
 
 # product variation
 colors : ["Varios", "Alpaca"]
