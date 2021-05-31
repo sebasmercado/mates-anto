@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = ""
+baseurl = "/"
 title = "Mates | Catálogo de Mates"
 theme = "vex-hugo"
 # post excert
@@ -9,7 +9,7 @@ googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
 
-languageCode = "es"
+languageCode = "es-AR"
 
 # unsafe html
 [markup.goldmark.renderer]
