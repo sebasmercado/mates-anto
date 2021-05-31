@@ -1,0 +1,21 @@
+envs:
+- key: HUGO_EXTENDED
+  scope: RUN_AND_BUILD_TIME
+  value: "1"
+name: mates-ceramica-alpaca
+region: nyc
+static_sites:
+- build_command: rm -r ./public; hugo -d ./public
+  environment_slug: hugo
+  envs:
+  - key: SITE
+    scope: BUILD_TIME
+    value: mates-ceramica-alpaca
+  github:
+    branch: production
+    deploy_on_push: true
+    repo: sebasmercado/mates-anto
+  name: mates-ceramica-alpaca
+  routes:
+  - path: /
+  source_dir: /
