@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Mates de cerámica y alpaca. Diseño y calidad"
-  content : "La combinación perfecta de la cerámica y la alpaca en forma de mate. Un artículo exclusivo y de altísima calidad que podemos utilizar de manera cotidiana o para presentar como un regalo único."
+  content : "La combinación perfecta de la cerámica y la alpaca en forma de mate. Un artículo exclusivo y de altísima calidad que podemos utilizar de manera cotidiana o para presentar como un regalo único. Todos los mates incluyen bombilla."
   image : "images/pampa.jpg"
   button:
    enable : true
