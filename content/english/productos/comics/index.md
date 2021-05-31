@@ -8,8 +8,8 @@ catalogDir: "comics"
 description : "this is meta description"
 
 # product Price
-price: "30.00"
-discount_price: "25.00"
+price: "3.400,00"
+discount_price: ""
 
 # product variation
 colors : ["Varios", "Alpaca"]
