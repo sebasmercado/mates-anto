@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "http://examplesite.com/"
+baseurl = ""
 title = "Mates | Catálogo de Mates"
 theme = "vex-hugo"
 # post excert
@@ -8,6 +8,8 @@ summarylength = "20"
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
+
+languageCode = "es"
 
 # unsafe html
 [markup.goldmark.renderer]
